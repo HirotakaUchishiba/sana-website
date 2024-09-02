@@ -101,7 +101,7 @@ const AboutUs = () => (
         <div className="md:w-1/2 mb-8 md:mb-0">
           <h2 className="text-3xl font-semibold text-gray-800 mb-4">About Us</h2>
           <p className="text-gray-600 mb-4">
-            At HealthTech, we're passionate about leveraging cutting-edge technology to improve healthcare outcomes.
+            At HealthTech, we are passionate about leveraging cutting-edge technology to improve healthcare outcomes.
             Our team of experts is dedicated to creating innovative solutions that empower both patients and providers.
           </p>
           <button className="bg-blue-500 text-white px-6 py-2 rounded-full hover:bg-blue-600 transition duration-300">
@@ -148,7 +148,7 @@ const Testimonial = () => {
   const testimonials = [
     { quote: "HealthTech has revolutionized the way we manage our patients' care.", author: "Dr. Jane Smith" },
     { quote: "The TeleHealth platform has made it so much easier to connect with my doctor.", author: "John Doe" },
-    { quote: "Their analytics tools have given us invaluable insights into our hospital's performance.", author: "Sarah Johnson, Hospital Administrator" },
+    { quote: "Their analytics tools have given us invaluable insights into our hospital performance.", author: "Sarah Johnson, Hospital Administrator" },
   ]
 
   const [currentIndex, setCurrentIndex] = useState(0)
